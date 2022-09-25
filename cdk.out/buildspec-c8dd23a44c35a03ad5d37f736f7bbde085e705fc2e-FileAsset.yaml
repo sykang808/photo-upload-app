@@ -1,0 +1,16 @@
+{
+  "version": "0.2",
+  "phases": {
+    "install": {
+      "commands": [
+        "npm install -g cdk-assets@2"
+      ]
+    },
+    "build": {
+      "commands": [
+        "cdk-assets --path \"assembly-CoffeeListingAppStack-AppStage/CoffeeListingAppStackAppStageWebsiteHostingStackC4458844.assets.json\" --verbose publish \"e57c1acaa363d7d2b81736776007a7091bc73dff4aeb8135627c4511a51e7dca:current_account-current_region\"",
+        "cdk-assets --path \"assembly-CoffeeListingAppStack-AppStage/CoffeeListingAppStackAppStageRestApiStack62B43C81.assets.json\" --verbose publish \"0ae6e05fb4a63cbeb935e01bbfd6186de5f8d86aabddcdb8ab479710e9bb0f31:current_account-current_region\""
+      ]
+    }
+  }
+}

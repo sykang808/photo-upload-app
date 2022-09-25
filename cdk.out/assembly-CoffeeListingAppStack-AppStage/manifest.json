@@ -1,0 +1,312 @@
+{
+  "version": "21.0.0",
+  "artifacts": {
+    "CoffeeListingAppStackAppStageWebsiteHostingStackC4458844.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "CoffeeListingAppStackAppStageWebsiteHostingStackC4458844.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "CoffeeListingAppStackAppStageWebsiteHostingStackC4458844": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "CoffeeListingAppStackAppStageWebsiteHostingStackC4458844.template.json",
+        "validateOnSynth": true,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/2890b9a40d66597143ebc817d224bc9a364861e951d45ee4e7304ff0a956bf4d.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "CoffeeListingAppStackAppStageWebsiteHostingStackC4458844.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        },
+        "stackName": "WebsiteHostingStack-CoffeeListingAppStack"
+      },
+      "dependencies": [
+        "CoffeeListingAppStackAppStageWebsiteHostingStackC4458844.assets"
+      ],
+      "metadata": {
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/Bucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Bucket83908E77"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/Bucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BucketPolicyE9A3008A"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/Bucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BucketAutoDeleteObjectsCustomResourceBAFD23C2"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/Distribution/Origin1/S3Origin/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DistributionOrigin1S3Origin5F5C0696"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/Distribution/Origin2/S3Origin/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DistributionOrigin2S3OriginE484D4BF"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/Distribution/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Distribution830FAC52"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/CfnOutCloudFrontUrl": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CfnOutCloudFrontUrl"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/CfnOutDistributionId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CfnOutDistributionId"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/CfnOutBucketName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CfnOutBucketName"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/Exports/Output{\"Fn::GetAtt\":[\"Bucket83908E77\",\"Arn\"]}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputFnGetAttBucket83908E77Arn063C8555"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/Exports/Output{\"Ref\":\"Bucket83908E77\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefBucket83908E7781C90AC0"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/WebsiteHostingStack/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "CoffeeListingAppStack/AppStage/WebsiteHostingStack"
+    },
+    "CoffeeListingAppStackAppStageRestApiStack62B43C81.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "CoffeeListingAppStackAppStageRestApiStack62B43C81.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "CoffeeListingAppStackAppStageRestApiStack62B43C81": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "CoffeeListingAppStackAppStageRestApiStack62B43C81.template.json",
+        "validateOnSynth": true,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/1afc31419b6d46a0c31a30f5fced555e00023c9ed52066f96180582c38e7891c.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "CoffeeListingAppStackAppStageRestApiStack62B43C81.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        },
+        "stackName": "RestApiStack-CoffeeListingAppStack"
+      },
+      "dependencies": [
+        "CoffeeListingAppStackAppStageWebsiteHostingStackC4458844",
+        "CoffeeListingAppStackAppStageRestApiStack62B43C81.assets"
+      ],
+      "metadata": {
+        "/CoffeeListingAppStack/AppStage/RestApiStack/ApiHandlerPublic/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiHandlerPublicServiceRoleD6C6258E"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/ApiHandlerPublic/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiHandlerPublicServiceRoleDefaultPolicy2FBCFCB8"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/ApiHandlerPublic/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiHandlerPublic61F4B222"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/RestApi/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApi0C43BF4B"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/RestApi/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiCloudWatchRoleE3ED6605"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/RestApi/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiAccount7C83CF5A"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/RestApi/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiDeployment180EC503c1b459e4a19b6999b40f05d907186aa5"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/RestApi/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiDeploymentStageprod3855DE66"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/RestApi/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiEndpoint0551178A"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/RestApi/Default/images/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiimages029FA9EE"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/RestApi/Default/images/OPTIONS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiimagesOPTIONS9BBEC385"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/RestApi/Default/images/GET/ApiPermission.CoffeeListingAppStackAppStageRestApiStackRestApiA6982F29.GET..images": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiimagesGETApiPermissionCoffeeListingAppStackAppStageRestApiStackRestApiA6982F29GETimagesF7B1A71C"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/RestApi/Default/images/GET/ApiPermission.Test.CoffeeListingAppStackAppStageRestApiStackRestApiA6982F29.GET..images": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiimagesGETApiPermissionTestCoffeeListingAppStackAppStageRestApiStackRestApiA6982F29GETimagesD60B6D7A"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/RestApi/Default/images/GET/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiimagesGET951BF6C6"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/RestApi/Default/images/POST/ApiPermission.CoffeeListingAppStackAppStageRestApiStackRestApiA6982F29.POST..images": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiimagesPOSTApiPermissionCoffeeListingAppStackAppStageRestApiStackRestApiA6982F29POSTimagesDD49F532"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/RestApi/Default/images/POST/ApiPermission.Test.CoffeeListingAppStackAppStageRestApiStackRestApiA6982F29.POST..images": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiimagesPOSTApiPermissionTestCoffeeListingAppStackAppStageRestApiStackRestApiA6982F29POSTimages6F0C4E38"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/RestApi/Default/images/POST/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiimagesPOST92A834FD"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/CfnOutApiImagesUrl": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CfnOutApiImagesUrl"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/CoffeeListingAppStack/AppStage/RestApiStack/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "CoffeeListingAppStack/AppStage/RestApiStack"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "version": "21.0.0",
+  "files": {
+    "5cd099ef164709f67e112b8e9aaca103f5221a9b2f38bd4dbcb309dc9503c038": {
+      "source": {
+        "path": "CoffeeListingAppStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "5cd099ef164709f67e112b8e9aaca103f5221a9b2f38bd4dbcb309dc9503c038.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
