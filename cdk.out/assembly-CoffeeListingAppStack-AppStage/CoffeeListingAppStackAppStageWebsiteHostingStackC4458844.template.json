@@ -188,7 +188,7 @@
      "S3Bucket": {
       "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
      },
-     "S3Key": "e57c1acaa363d7d2b81736776007a7091bc73dff4aeb8135627c4511a51e7dca.zip"
+     "S3Key": "483ae06ed27ef8ca76e011264d772420593a6cfe8544759c306ef3b98c9e25be.zip"
     },
     "Timeout": 900,
     "MemorySize": 128,
@@ -199,7 +199,7 @@
       "Arn"
      ]
     },
-    "Runtime": "nodejs14.x",
+    "Runtime": "nodejs12.x",
     "Description": {
      "Fn::Join": [
       "",
@@ -218,7 +218,7 @@
    ],
    "Metadata": {
     "aws:cdk:path": "CoffeeListingAppStack/AppStage/WebsiteHostingStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler",
-    "aws:asset:path": "../asset.e57c1acaa363d7d2b81736776007a7091bc73dff4aeb8135627c4511a51e7dca",
+    "aws:asset:path": "../asset.483ae06ed27ef8ca76e011264d772420593a6cfe8544759c306ef3b98c9e25be",
     "aws:asset:property": "Code"
    }
   },
@@ -324,7 +324,7 @@
   "CDKMetadata": {
    "Type": "AWS::CDK::Metadata",
    "Properties": {
-    "Analytics": "v2:deflate64:H4sIAAAAAAAA/3VPXQ8BQQz8Ld73yiE8cyLxRPgBwm5J3dnKtkvkcv/dfUjw4Gmm7cykM4TxCNLe4SGJdXlS0BHKnR5sburVvpQRlPNoc1STnfybdbDhguzzs+7mytiCozsF9grlgkQDHaMSe7MOdCY/sxZFVg69krb2rDEsG8M/xXdMVZksivJ1i8IxWGwEH/5z2gS+k8NgZiKoda06/dzo11Fvsa2UsXfU5hrPDuEi/Xs6gXQKg95FiJIQ6zeuCNsOX4JN+cYwAQAA"
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/3VQQQrCQAx8i/ftWhX0rBXBk6IPkHY3ldi6kU1WkdK/u20F9eApk8nMkGSqp6lOR/mDE2OrpMZCN0fJTaUidWp4pptVMBWIykr3RkPZU43m+aGHvlWmpmBLT050s0YWj0UQJKd2Hs/olsYA89aCE5TennWGTWf4p/iOaVuVBRa6HoApeAOd4IN/RntPd7Tg1ZIZJJ4V08+dfhfkFvqTMnIW+1zlyIK+8Pg+mevJIj7lwoiJD3GNK+jDUF9dIzZtMAEAAA=="
    },
    "Metadata": {
     "aws:cdk:path": "CoffeeListingAppStack/AppStage/WebsiteHostingStack/CDKMetadata/Default"

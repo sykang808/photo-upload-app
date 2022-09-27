@@ -9,7 +9,7 @@
         "path": "Tree",
         "constructInfo": {
           "fqn": "constructs.Construct",
-          "version": "10.1.112"
+          "version": "10.0.118"
         }
       },
       "CoffeeListingAppStack": {
@@ -32,7 +32,7 @@
                 },
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.aws_codecommit.CfnRepository",
-                  "version": "2.43.1"
+                  "version": "2.20.0"
                 }
               },
               "CoffeeListingAppStackPipelineB65A051A-main-EventRule": {
@@ -109,19 +109,19 @@
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_events.CfnRule",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.aws_events.Rule",
-                  "version": "2.43.1"
+                  "version": "2.20.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "aws-cdk-lib.aws_codecommit.Repository",
-              "version": "2.43.1"
+              "version": "2.20.0"
             }
           },
           "AppStage": {
@@ -164,7 +164,7 @@
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_s3.CfnBucket",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "Policy": {
@@ -279,13 +279,13 @@
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_s3.CfnBucketPolicy",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_s3.BucketPolicy",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "AutoDeleteObjectsCustomResource": {
@@ -297,19 +297,19 @@
                             "path": "CoffeeListingAppStack/AppStage/WebsiteHostingStack/Bucket/AutoDeleteObjectsCustomResource/Default",
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.CfnResource",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.CustomResource",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_s3.Bucket",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "Custom::S3AutoDeleteObjectsCustomResourceProvider": {
@@ -321,7 +321,7 @@
                         "path": "CoffeeListingAppStack/AppStage/WebsiteHostingStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Staging",
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.AssetStaging",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "Role": {
@@ -329,7 +329,7 @@
                         "path": "CoffeeListingAppStack/AppStage/WebsiteHostingStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role",
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.CfnResource",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "Handler": {
@@ -337,13 +337,13 @@
                         "path": "CoffeeListingAppStack/AppStage/WebsiteHostingStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler",
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.CfnResource",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.CustomResourceProvider",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "Distribution": {
@@ -371,19 +371,19 @@
                                 },
                                 "constructInfo": {
                                   "fqn": "aws-cdk-lib.aws_cloudfront.CfnCloudFrontOriginAccessIdentity",
-                                  "version": "2.43.1"
+                                  "version": "2.20.0"
                                 }
                               }
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_cloudfront.OriginAccessIdentity",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "constructs.Construct",
-                          "version": "10.1.112"
+                          "version": "10.0.118"
                         }
                       },
                       "Origin2": {
@@ -407,19 +407,19 @@
                                 },
                                 "constructInfo": {
                                   "fqn": "aws-cdk-lib.aws_cloudfront.CfnCloudFrontOriginAccessIdentity",
-                                  "version": "2.43.1"
+                                  "version": "2.20.0"
                                 }
                               }
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_cloudfront.OriginAccessIdentity",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "constructs.Construct",
-                          "version": "10.1.112"
+                          "version": "10.0.118"
                         }
                       },
                       "Resource": {
@@ -502,13 +502,13 @@
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_cloudfront.CfnDistribution",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_cloudfront.Distribution",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "CfnOutCloudFrontUrl": {
@@ -516,7 +516,7 @@
                     "path": "CoffeeListingAppStack/AppStage/WebsiteHostingStack/CfnOutCloudFrontUrl",
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.CfnOutput",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "CfnOutDistributionId": {
@@ -524,7 +524,7 @@
                     "path": "CoffeeListingAppStack/AppStage/WebsiteHostingStack/CfnOutDistributionId",
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.CfnOutput",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "CfnOutBucketName": {
@@ -532,7 +532,7 @@
                     "path": "CoffeeListingAppStack/AppStage/WebsiteHostingStack/CfnOutBucketName",
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.CfnOutput",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "CDKMetadata": {
@@ -544,7 +544,7 @@
                         "path": "CoffeeListingAppStack/AppStage/WebsiteHostingStack/CDKMetadata/Default",
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.CfnResource",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "Condition": {
@@ -552,13 +552,13 @@
                         "path": "CoffeeListingAppStack/AppStage/WebsiteHostingStack/CDKMetadata/Condition",
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.CfnCondition",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "constructs.Construct",
-                      "version": "10.1.112"
+                      "version": "10.0.118"
                     }
                   },
                   "Exports": {
@@ -570,7 +570,7 @@
                         "path": "CoffeeListingAppStack/AppStage/WebsiteHostingStack/Exports/Output{\"Fn::GetAtt\":[\"Bucket83908E77\",\"Arn\"]}",
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.CfnOutput",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "Output{\"Ref\":\"Bucket83908E77\"}": {
@@ -578,13 +578,13 @@
                         "path": "CoffeeListingAppStack/AppStage/WebsiteHostingStack/Exports/Output{\"Ref\":\"Bucket83908E77\"}",
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.CfnOutput",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "constructs.Construct",
-                      "version": "10.1.112"
+                      "version": "10.0.118"
                     }
                   },
                   "BootstrapVersion": {
@@ -592,7 +592,7 @@
                     "path": "CoffeeListingAppStack/AppStage/WebsiteHostingStack/BootstrapVersion",
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.CfnParameter",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "CheckBootstrapVersion": {
@@ -600,13 +600,13 @@
                     "path": "CoffeeListingAppStack/AppStage/WebsiteHostingStack/CheckBootstrapVersion",
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.CfnRule",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.Stack",
-                  "version": "2.43.1"
+                  "version": "2.20.0"
                 }
               },
               "RestApiStack": {
@@ -657,7 +657,7 @@
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_iam.CfnRole",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           },
                           "DefaultPolicy": {
@@ -716,19 +716,19 @@
                                 },
                                 "constructInfo": {
                                   "fqn": "aws-cdk-lib.aws_iam.CfnPolicy",
-                                  "version": "2.43.1"
+                                  "version": "2.20.0"
                                 }
                               }
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_iam.Policy",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_iam.Role",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "Code": {
@@ -740,7 +740,7 @@
                             "path": "CoffeeListingAppStack/AppStage/RestApiStack/ApiHandlerPublic/Code/Stage",
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.AssetStaging",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           },
                           "AssetBucket": {
@@ -748,13 +748,13 @@
                             "path": "CoffeeListingAppStack/AppStage/RestApiStack/ApiHandlerPublic/Code/AssetBucket",
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_s3.BucketBase",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_s3_assets.Asset",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "Resource": {
@@ -767,7 +767,7 @@
                               "s3Bucket": {
                                 "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
                               },
-                              "s3Key": "0ae6e05fb4a63cbeb935e01bbfd6186de5f8d86aabddcdb8ab479710e9bb0f31.zip"
+                              "s3Key": "07668d3124dcdb154060bb4f97659fd90873bfae34f1e743d5f6bfebb5774678.zip"
                             },
                             "role": {
                               "Fn::GetAtt": [
@@ -790,13 +790,13 @@
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_lambda.CfnFunction",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_lambda_nodejs.NodejsFunction",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "RestApi": {
@@ -814,7 +814,7 @@
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_apigateway.CfnRestApi",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "CloudWatchRole": {
@@ -857,13 +857,13 @@
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_iam.CfnRole",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_iam.Role",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "Account": {
@@ -882,7 +882,7 @@
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_apigateway.CfnAccount",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "Deployment": {
@@ -903,13 +903,13 @@
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_apigateway.CfnDeployment",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_apigateway.Deployment",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "DeploymentStage.prod": {
@@ -933,13 +933,13 @@
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_apigateway.CfnStage",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_apigateway.Stage",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "Endpoint": {
@@ -947,7 +947,7 @@
                         "path": "CoffeeListingAppStack/AppStage/RestApiStack/RestApi/Endpoint",
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.CfnOutput",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "Default": {
@@ -978,7 +978,7 @@
                                 },
                                 "constructInfo": {
                                   "fqn": "aws-cdk-lib.aws_apigateway.CfnResource",
-                                  "version": "2.43.1"
+                                  "version": "2.20.0"
                                 }
                               },
                               "OPTIONS": {
@@ -1029,13 +1029,13 @@
                                     },
                                     "constructInfo": {
                                       "fqn": "aws-cdk-lib.aws_apigateway.CfnMethod",
-                                      "version": "2.43.1"
+                                      "version": "2.20.0"
                                     }
                                   }
                                 },
                                 "constructInfo": {
                                   "fqn": "aws-cdk-lib.aws_apigateway.Method",
-                                  "version": "2.43.1"
+                                  "version": "2.20.0"
                                 }
                               },
                               "GET": {
@@ -1088,7 +1088,7 @@
                                     },
                                     "constructInfo": {
                                       "fqn": "aws-cdk-lib.aws_lambda.CfnPermission",
-                                      "version": "2.43.1"
+                                      "version": "2.20.0"
                                     }
                                   },
                                   "ApiPermission.Test.CoffeeListingAppStackAppStageRestApiStackRestApiA6982F29.GET..images": {
@@ -1133,7 +1133,7 @@
                                     },
                                     "constructInfo": {
                                       "fqn": "aws-cdk-lib.aws_lambda.CfnPermission",
-                                      "version": "2.43.1"
+                                      "version": "2.20.0"
                                     }
                                   },
                                   "Resource": {
@@ -1181,13 +1181,13 @@
                                     },
                                     "constructInfo": {
                                       "fqn": "aws-cdk-lib.aws_apigateway.CfnMethod",
-                                      "version": "2.43.1"
+                                      "version": "2.20.0"
                                     }
                                   }
                                 },
                                 "constructInfo": {
                                   "fqn": "aws-cdk-lib.aws_apigateway.Method",
-                                  "version": "2.43.1"
+                                  "version": "2.20.0"
                                 }
                               },
                               "POST": {
@@ -1240,7 +1240,7 @@
                                     },
                                     "constructInfo": {
                                       "fqn": "aws-cdk-lib.aws_lambda.CfnPermission",
-                                      "version": "2.43.1"
+                                      "version": "2.20.0"
                                     }
                                   },
                                   "ApiPermission.Test.CoffeeListingAppStackAppStageRestApiStackRestApiA6982F29.POST..images": {
@@ -1285,7 +1285,7 @@
                                     },
                                     "constructInfo": {
                                       "fqn": "aws-cdk-lib.aws_lambda.CfnPermission",
-                                      "version": "2.43.1"
+                                      "version": "2.20.0"
                                     }
                                   },
                                   "Resource": {
@@ -1333,31 +1333,31 @@
                                     },
                                     "constructInfo": {
                                       "fqn": "aws-cdk-lib.aws_apigateway.CfnMethod",
-                                      "version": "2.43.1"
+                                      "version": "2.20.0"
                                     }
                                   }
                                 },
                                 "constructInfo": {
                                   "fqn": "aws-cdk-lib.aws_apigateway.Method",
-                                  "version": "2.43.1"
+                                  "version": "2.20.0"
                                 }
                               }
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_apigateway.Resource",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_apigateway.ResourceBase",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_apigateway.LambdaRestApi",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "CfnOutApiImagesUrl": {
@@ -1365,7 +1365,7 @@
                     "path": "CoffeeListingAppStack/AppStage/RestApiStack/CfnOutApiImagesUrl",
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.CfnOutput",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "CDKMetadata": {
@@ -1377,7 +1377,7 @@
                         "path": "CoffeeListingAppStack/AppStage/RestApiStack/CDKMetadata/Default",
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.CfnResource",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "Condition": {
@@ -1385,13 +1385,13 @@
                         "path": "CoffeeListingAppStack/AppStage/RestApiStack/CDKMetadata/Condition",
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.CfnCondition",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "constructs.Construct",
-                      "version": "10.1.112"
+                      "version": "10.0.118"
                     }
                   },
                   "BootstrapVersion": {
@@ -1399,7 +1399,7 @@
                     "path": "CoffeeListingAppStack/AppStage/RestApiStack/BootstrapVersion",
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.CfnParameter",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "CheckBootstrapVersion": {
@@ -1407,19 +1407,19 @@
                     "path": "CoffeeListingAppStack/AppStage/RestApiStack/CheckBootstrapVersion",
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.CfnRule",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.Stack",
-                  "version": "2.43.1"
+                  "version": "2.20.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "aws-cdk-lib.Stage",
-              "version": "2.43.1"
+              "version": "2.20.0"
             }
           },
           "Pipeline": {
@@ -1459,7 +1459,7 @@
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_s3.CfnBucket",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "Policy": {
@@ -1573,19 +1573,19 @@
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_s3.CfnBucketPolicy",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_s3.BucketPolicy",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_s3.Bucket",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "Role": {
@@ -1614,7 +1614,7 @@
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_iam.CfnRole",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "DefaultPolicy": {
@@ -1681,7 +1681,17 @@
                                       "Effect": "Allow",
                                       "Resource": {
                                         "Fn::GetAtt": [
-                                          "PipelineCodeBuildActionRole226DB0CB",
+                                          "PipelineBuildSynthCodePipelineActionRole4E7A6C97",
+                                          "Arn"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "Action": "sts:AssumeRole",
+                                      "Effect": "Allow",
+                                      "Resource": {
+                                        "Fn::GetAtt": [
+                                          "PipelineAssetsFileAssetCodePipelineActionRoleFC225D71",
                                           "Arn"
                                         ]
                                       }
@@ -1712,6 +1722,16 @@
                                           ]
                                         ]
                                       }
+                                    },
+                                    {
+                                      "Action": "sts:AssumeRole",
+                                      "Effect": "Allow",
+                                      "Resource": {
+                                        "Fn::GetAtt": [
+                                          "PipelineAppStageDeployFrontEndCodePipelineActionRole8AB902C8",
+                                          "Arn"
+                                        ]
+                                      }
                                     }
                                   ],
                                   "Version": "2012-10-17"
@@ -1726,19 +1746,19 @@
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_iam.CfnPolicy",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_iam.Policy",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_iam.Role",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "Resource": {
@@ -1824,7 +1844,7 @@
                                 "runOrder": 1,
                                 "roleArn": {
                                   "Fn::GetAtt": [
-                                    "PipelineCodeBuildActionRole226DB0CB",
+                                    "PipelineBuildSynthCodePipelineActionRole4E7A6C97",
                                     "Arn"
                                   ]
                                 }
@@ -1855,7 +1875,7 @@
                                 "runOrder": 1,
                                 "roleArn": {
                                   "Fn::GetAtt": [
-                                    "PipelineCodeBuildActionRole226DB0CB",
+                                    "PipelineAssetsFileAssetCodePipelineActionRoleFC225D71",
                                     "Arn"
                                   ]
                                 }
@@ -2101,7 +2121,7 @@
                                 "runOrder": 5,
                                 "roleArn": {
                                   "Fn::GetAtt": [
-                                    "PipelineCodeBuildActionRole226DB0CB",
+                                    "PipelineAppStageDeployFrontEndCodePipelineActionRole8AB902C8",
                                     "Arn"
                                   ]
                                 }
@@ -2121,7 +2141,7 @@
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_codepipeline.CfnPipeline",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "Source": {
@@ -2173,7 +2193,7 @@
                                 },
                                 "constructInfo": {
                                   "fqn": "aws-cdk-lib.aws_iam.CfnRole",
-                                  "version": "2.43.1"
+                                  "version": "2.20.0"
                                 }
                               },
                               "DefaultPolicy": {
@@ -2254,31 +2274,31 @@
                                     },
                                     "constructInfo": {
                                       "fqn": "aws-cdk-lib.aws_iam.CfnPolicy",
-                                      "version": "2.43.1"
+                                      "version": "2.20.0"
                                     }
                                   }
                                 },
                                 "constructInfo": {
                                   "fqn": "aws-cdk-lib.aws_iam.Policy",
-                                  "version": "2.43.1"
+                                  "version": "2.20.0"
                                 }
                               }
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_iam.Role",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "constructs.Construct",
-                          "version": "10.1.112"
+                          "version": "10.0.118"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "constructs.Construct",
-                      "version": "10.1.112"
+                      "version": "10.0.118"
                     }
                   },
                   "EventsRole": {
@@ -2307,7 +2327,7 @@
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_iam.CfnRole",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "DefaultPolicy": {
@@ -2362,19 +2382,19 @@
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_iam.CfnPolicy",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_iam.Policy",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_iam.Role",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "Build": {
@@ -2415,7 +2435,7 @@
                                     },
                                     "constructInfo": {
                                       "fqn": "aws-cdk-lib.aws_iam.CfnRole",
-                                      "version": "2.43.1"
+                                      "version": "2.20.0"
                                     }
                                   },
                                   "DefaultPolicy": {
@@ -2581,19 +2601,19 @@
                                         },
                                         "constructInfo": {
                                           "fqn": "aws-cdk-lib.aws_iam.CfnPolicy",
-                                          "version": "2.43.1"
+                                          "version": "2.20.0"
                                         }
                                       }
                                     },
                                     "constructInfo": {
                                       "fqn": "aws-cdk-lib.aws_iam.Policy",
-                                      "version": "2.43.1"
+                                      "version": "2.20.0"
                                     }
                                   }
                                 },
                                 "constructInfo": {
                                   "fqn": "aws-cdk-lib.aws_iam.Role",
-                                  "version": "2.43.1"
+                                  "version": "2.20.0"
                                 }
                               },
                               "Resource": {
@@ -2631,25 +2651,123 @@
                                 },
                                 "constructInfo": {
                                   "fqn": "aws-cdk-lib.aws_codebuild.CfnProject",
-                                  "version": "2.43.1"
+                                  "version": "2.20.0"
                                 }
                               }
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_codebuild.PipelineProject",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
+                            }
+                          },
+                          "CodePipelineActionRole": {
+                            "id": "CodePipelineActionRole",
+                            "path": "CoffeeListingAppStack/Pipeline/Pipeline/Build/Synth/CodePipelineActionRole",
+                            "children": {
+                              "Resource": {
+                                "id": "Resource",
+                                "path": "CoffeeListingAppStack/Pipeline/Pipeline/Build/Synth/CodePipelineActionRole/Resource",
+                                "attributes": {
+                                  "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                                  "aws:cdk:cloudformation:props": {
+                                    "assumeRolePolicyDocument": {
+                                      "Statement": [
+                                        {
+                                          "Action": "sts:AssumeRole",
+                                          "Effect": "Allow",
+                                          "Principal": {
+                                            "AWS": {
+                                              "Fn::Join": [
+                                                "",
+                                                [
+                                                  "arn:",
+                                                  {
+                                                    "Ref": "AWS::Partition"
+                                                  },
+                                                  ":iam::",
+                                                  {
+                                                    "Ref": "AWS::AccountId"
+                                                  },
+                                                  ":root"
+                                                ]
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "Version": "2012-10-17"
+                                    }
+                                  }
+                                },
+                                "constructInfo": {
+                                  "fqn": "aws-cdk-lib.aws_iam.CfnRole",
+                                  "version": "2.20.0"
+                                }
+                              },
+                              "DefaultPolicy": {
+                                "id": "DefaultPolicy",
+                                "path": "CoffeeListingAppStack/Pipeline/Pipeline/Build/Synth/CodePipelineActionRole/DefaultPolicy",
+                                "children": {
+                                  "Resource": {
+                                    "id": "Resource",
+                                    "path": "CoffeeListingAppStack/Pipeline/Pipeline/Build/Synth/CodePipelineActionRole/DefaultPolicy/Resource",
+                                    "attributes": {
+                                      "aws:cdk:cloudformation:type": "AWS::IAM::Policy",
+                                      "aws:cdk:cloudformation:props": {
+                                        "policyDocument": {
+                                          "Statement": [
+                                            {
+                                              "Action": [
+                                                "codebuild:BatchGetBuilds",
+                                                "codebuild:StartBuild",
+                                                "codebuild:StopBuild"
+                                              ],
+                                              "Effect": "Allow",
+                                              "Resource": {
+                                                "Fn::GetAtt": [
+                                                  "PipelineBuildSynthCdkBuildProject6BEFA8E6",
+                                                  "Arn"
+                                                ]
+                                              }
+                                            }
+                                          ],
+                                          "Version": "2012-10-17"
+                                        },
+                                        "policyName": "PipelineBuildSynthCodePipelineActionRoleDefaultPolicy92C90290",
+                                        "roles": [
+                                          {
+                                            "Ref": "PipelineBuildSynthCodePipelineActionRole4E7A6C97"
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "constructInfo": {
+                                      "fqn": "aws-cdk-lib.aws_iam.CfnPolicy",
+                                      "version": "2.20.0"
+                                    }
+                                  }
+                                },
+                                "constructInfo": {
+                                  "fqn": "aws-cdk-lib.aws_iam.Policy",
+                                  "version": "2.20.0"
+                                }
+                              }
+                            },
+                            "constructInfo": {
+                              "fqn": "aws-cdk-lib.aws_iam.Role",
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "constructs.Construct",
-                          "version": "10.1.112"
+                          "version": "10.0.118"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "constructs.Construct",
-                      "version": "10.1.112"
+                      "version": "10.0.118"
                     }
                   },
                   "Assets": {
@@ -2659,15 +2777,115 @@
                       "FileAsset": {
                         "id": "FileAsset",
                         "path": "CoffeeListingAppStack/Pipeline/Pipeline/Assets/FileAsset",
+                        "children": {
+                          "CodePipelineActionRole": {
+                            "id": "CodePipelineActionRole",
+                            "path": "CoffeeListingAppStack/Pipeline/Pipeline/Assets/FileAsset/CodePipelineActionRole",
+                            "children": {
+                              "Resource": {
+                                "id": "Resource",
+                                "path": "CoffeeListingAppStack/Pipeline/Pipeline/Assets/FileAsset/CodePipelineActionRole/Resource",
+                                "attributes": {
+                                  "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                                  "aws:cdk:cloudformation:props": {
+                                    "assumeRolePolicyDocument": {
+                                      "Statement": [
+                                        {
+                                          "Action": "sts:AssumeRole",
+                                          "Effect": "Allow",
+                                          "Principal": {
+                                            "AWS": {
+                                              "Fn::Join": [
+                                                "",
+                                                [
+                                                  "arn:",
+                                                  {
+                                                    "Ref": "AWS::Partition"
+                                                  },
+                                                  ":iam::",
+                                                  {
+                                                    "Ref": "AWS::AccountId"
+                                                  },
+                                                  ":root"
+                                                ]
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "Version": "2012-10-17"
+                                    }
+                                  }
+                                },
+                                "constructInfo": {
+                                  "fqn": "aws-cdk-lib.aws_iam.CfnRole",
+                                  "version": "2.20.0"
+                                }
+                              },
+                              "DefaultPolicy": {
+                                "id": "DefaultPolicy",
+                                "path": "CoffeeListingAppStack/Pipeline/Pipeline/Assets/FileAsset/CodePipelineActionRole/DefaultPolicy",
+                                "children": {
+                                  "Resource": {
+                                    "id": "Resource",
+                                    "path": "CoffeeListingAppStack/Pipeline/Pipeline/Assets/FileAsset/CodePipelineActionRole/DefaultPolicy/Resource",
+                                    "attributes": {
+                                      "aws:cdk:cloudformation:type": "AWS::IAM::Policy",
+                                      "aws:cdk:cloudformation:props": {
+                                        "policyDocument": {
+                                          "Statement": [
+                                            {
+                                              "Action": [
+                                                "codebuild:BatchGetBuilds",
+                                                "codebuild:StartBuild",
+                                                "codebuild:StopBuild"
+                                              ],
+                                              "Effect": "Allow",
+                                              "Resource": {
+                                                "Fn::GetAtt": [
+                                                  "PipelineAssetsFileAsset5D8C5DA6",
+                                                  "Arn"
+                                                ]
+                                              }
+                                            }
+                                          ],
+                                          "Version": "2012-10-17"
+                                        },
+                                        "policyName": "PipelineAssetsFileAssetCodePipelineActionRoleDefaultPolicy431C74F6",
+                                        "roles": [
+                                          {
+                                            "Ref": "PipelineAssetsFileAssetCodePipelineActionRoleFC225D71"
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "constructInfo": {
+                                      "fqn": "aws-cdk-lib.aws_iam.CfnPolicy",
+                                      "version": "2.20.0"
+                                    }
+                                  }
+                                },
+                                "constructInfo": {
+                                  "fqn": "aws-cdk-lib.aws_iam.Policy",
+                                  "version": "2.20.0"
+                                }
+                              }
+                            },
+                            "constructInfo": {
+                              "fqn": "aws-cdk-lib.aws_iam.Role",
+                              "version": "2.20.0"
+                            }
+                          }
+                        },
                         "constructInfo": {
                           "fqn": "constructs.Construct",
-                          "version": "10.1.112"
+                          "version": "10.0.118"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "constructs.Construct",
-                      "version": "10.1.112"
+                      "version": "10.0.118"
                     }
                   },
                   "AppStage": {
@@ -2679,7 +2897,7 @@
                         "path": "CoffeeListingAppStack/Pipeline/Pipeline/AppStage/WebsiteHostingStack-CoffeeListingAppStack.Prepare",
                         "constructInfo": {
                           "fqn": "constructs.Construct",
-                          "version": "10.1.112"
+                          "version": "10.0.118"
                         }
                       },
                       "WebsiteHostingStack-CoffeeListingAppStack.Deploy": {
@@ -2687,7 +2905,7 @@
                         "path": "CoffeeListingAppStack/Pipeline/Pipeline/AppStage/WebsiteHostingStack-CoffeeListingAppStack.Deploy",
                         "constructInfo": {
                           "fqn": "constructs.Construct",
-                          "version": "10.1.112"
+                          "version": "10.0.118"
                         }
                       },
                       "RestApiStack-CoffeeListingAppStack.Prepare": {
@@ -2695,7 +2913,7 @@
                         "path": "CoffeeListingAppStack/Pipeline/Pipeline/AppStage/RestApiStack-CoffeeListingAppStack.Prepare",
                         "constructInfo": {
                           "fqn": "constructs.Construct",
-                          "version": "10.1.112"
+                          "version": "10.0.118"
                         }
                       },
                       "RestApiStack-CoffeeListingAppStack.Deploy": {
@@ -2703,7 +2921,7 @@
                         "path": "CoffeeListingAppStack/Pipeline/Pipeline/AppStage/RestApiStack-CoffeeListingAppStack.Deploy",
                         "constructInfo": {
                           "fqn": "constructs.Construct",
-                          "version": "10.1.112"
+                          "version": "10.0.118"
                         }
                       },
                       "DeployFrontEnd": {
@@ -2740,7 +2958,7 @@
                                     },
                                     "constructInfo": {
                                       "fqn": "aws-cdk-lib.aws_iam.CfnRole",
-                                      "version": "2.43.1"
+                                      "version": "2.20.0"
                                     }
                                   },
                                   "DefaultPolicy": {
@@ -2899,19 +3117,19 @@
                                         },
                                         "constructInfo": {
                                           "fqn": "aws-cdk-lib.aws_iam.CfnPolicy",
-                                          "version": "2.43.1"
+                                          "version": "2.20.0"
                                         }
                                       }
                                     },
                                     "constructInfo": {
                                       "fqn": "aws-cdk-lib.aws_iam.Policy",
-                                      "version": "2.43.1"
+                                      "version": "2.20.0"
                                     }
                                   }
                                 },
                                 "constructInfo": {
                                   "fqn": "aws-cdk-lib.aws_iam.Role",
-                                  "version": "2.43.1"
+                                  "version": "2.20.0"
                                 }
                               },
                               "Resource": {
@@ -2949,59 +3167,149 @@
                                 },
                                 "constructInfo": {
                                   "fqn": "aws-cdk-lib.aws_codebuild.CfnProject",
-                                  "version": "2.43.1"
+                                  "version": "2.20.0"
                                 }
                               }
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_codebuild.PipelineProject",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
+                            }
+                          },
+                          "CodePipelineActionRole": {
+                            "id": "CodePipelineActionRole",
+                            "path": "CoffeeListingAppStack/Pipeline/Pipeline/AppStage/DeployFrontEnd/CodePipelineActionRole",
+                            "children": {
+                              "Resource": {
+                                "id": "Resource",
+                                "path": "CoffeeListingAppStack/Pipeline/Pipeline/AppStage/DeployFrontEnd/CodePipelineActionRole/Resource",
+                                "attributes": {
+                                  "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                                  "aws:cdk:cloudformation:props": {
+                                    "assumeRolePolicyDocument": {
+                                      "Statement": [
+                                        {
+                                          "Action": "sts:AssumeRole",
+                                          "Effect": "Allow",
+                                          "Principal": {
+                                            "AWS": {
+                                              "Fn::Join": [
+                                                "",
+                                                [
+                                                  "arn:",
+                                                  {
+                                                    "Ref": "AWS::Partition"
+                                                  },
+                                                  ":iam::",
+                                                  {
+                                                    "Ref": "AWS::AccountId"
+                                                  },
+                                                  ":root"
+                                                ]
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "Version": "2012-10-17"
+                                    }
+                                  }
+                                },
+                                "constructInfo": {
+                                  "fqn": "aws-cdk-lib.aws_iam.CfnRole",
+                                  "version": "2.20.0"
+                                }
+                              },
+                              "DefaultPolicy": {
+                                "id": "DefaultPolicy",
+                                "path": "CoffeeListingAppStack/Pipeline/Pipeline/AppStage/DeployFrontEnd/CodePipelineActionRole/DefaultPolicy",
+                                "children": {
+                                  "Resource": {
+                                    "id": "Resource",
+                                    "path": "CoffeeListingAppStack/Pipeline/Pipeline/AppStage/DeployFrontEnd/CodePipelineActionRole/DefaultPolicy/Resource",
+                                    "attributes": {
+                                      "aws:cdk:cloudformation:type": "AWS::IAM::Policy",
+                                      "aws:cdk:cloudformation:props": {
+                                        "policyDocument": {
+                                          "Statement": [
+                                            {
+                                              "Action": [
+                                                "codebuild:BatchGetBuilds",
+                                                "codebuild:StartBuild",
+                                                "codebuild:StopBuild"
+                                              ],
+                                              "Effect": "Allow",
+                                              "Resource": {
+                                                "Fn::GetAtt": [
+                                                  "PipelineAppStageDeployFrontEndC4DF9F5E",
+                                                  "Arn"
+                                                ]
+                                              }
+                                            }
+                                          ],
+                                          "Version": "2012-10-17"
+                                        },
+                                        "policyName": "PipelineAppStageDeployFrontEndCodePipelineActionRoleDefaultPolicy510D2CDA",
+                                        "roles": [
+                                          {
+                                            "Ref": "PipelineAppStageDeployFrontEndCodePipelineActionRole8AB902C8"
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "constructInfo": {
+                                      "fqn": "aws-cdk-lib.aws_iam.CfnPolicy",
+                                      "version": "2.20.0"
+                                    }
+                                  }
+                                },
+                                "constructInfo": {
+                                  "fqn": "aws-cdk-lib.aws_iam.Policy",
+                                  "version": "2.20.0"
+                                }
+                              }
+                            },
+                            "constructInfo": {
+                              "fqn": "aws-cdk-lib.aws_iam.Role",
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "constructs.Construct",
-                          "version": "10.1.112"
+                          "version": "10.0.118"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "constructs.Construct",
-                      "version": "10.1.112"
-                    }
-                  },
-                  "MutableRolearn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}": {
-                    "id": "MutableRolearn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
-                    "path": "CoffeeListingAppStack/Pipeline/Pipeline/MutableRolearn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
-                    "constructInfo": {
-                      "fqn": "aws-cdk-lib.Resource",
-                      "version": "2.43.1"
+                      "version": "10.0.118"
                     }
                   },
                   "arn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}": {
                     "id": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
                     "path": "CoffeeListingAppStack/Pipeline/Pipeline/arn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+                    "constructInfo": {
+                      "fqn": "aws-cdk-lib.Resource",
+                      "version": "2.20.0"
+                    }
+                  },
+                  "ImmutableRolearn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}": {
+                    "id": "ImmutableRolearn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+                    "path": "CoffeeListingAppStack/Pipeline/Pipeline/ImmutableRolearn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
                     "children": {
                       "8389e75f-0810-4838-bf64-d6f85a95cf83": {
                         "id": "8389e75f-0810-4838-bf64-d6f85a95cf83",
-                        "path": "CoffeeListingAppStack/Pipeline/Pipeline/arn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}/8389e75f-0810-4838-bf64-d6f85a95cf83",
+                        "path": "CoffeeListingAppStack/Pipeline/Pipeline/ImmutableRolearn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}/8389e75f-0810-4838-bf64-d6f85a95cf83",
                         "constructInfo": {
                           "fqn": "constructs.Construct",
-                          "version": "10.1.112"
+                          "version": "10.0.118"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.Resource",
-                      "version": "2.43.1"
-                    }
-                  },
-                  "MutableRolearn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}": {
-                    "id": "MutableRolearn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-                    "path": "CoffeeListingAppStack/Pipeline/Pipeline/MutableRolearn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-                    "constructInfo": {
-                      "fqn": "aws-cdk-lib.Resource",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "arn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}": {
@@ -3009,144 +3317,21 @@
                     "path": "CoffeeListingAppStack/Pipeline/Pipeline/arn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.Resource",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
+                    }
+                  },
+                  "ImmutableRolearn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}": {
+                    "id": "ImmutableRolearn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+                    "path": "CoffeeListingAppStack/Pipeline/Pipeline/ImmutableRolearn:${AWS::Partition}:iam::${AWS::AccountId}:role--cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+                    "constructInfo": {
+                      "fqn": "aws-cdk-lib.Resource",
+                      "version": "2.20.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.aws_codepipeline.Pipeline",
-                  "version": "2.43.1"
-                }
-              },
-              "CodeBuildActionRole": {
-                "id": "CodeBuildActionRole",
-                "path": "CoffeeListingAppStack/Pipeline/CodeBuildActionRole",
-                "children": {
-                  "Resource": {
-                    "id": "Resource",
-                    "path": "CoffeeListingAppStack/Pipeline/CodeBuildActionRole/Resource",
-                    "attributes": {
-                      "aws:cdk:cloudformation:type": "AWS::IAM::Role",
-                      "aws:cdk:cloudformation:props": {
-                        "assumeRolePolicyDocument": {
-                          "Statement": [
-                            {
-                              "Action": "sts:AssumeRole",
-                              "Condition": {
-                                "Bool": {
-                                  "aws:ViaAWSService": "codepipeline.amazonaws.com"
-                                }
-                              },
-                              "Effect": "Allow",
-                              "Principal": {
-                                "AWS": {
-                                  "Fn::Join": [
-                                    "",
-                                    [
-                                      "arn:",
-                                      {
-                                        "Ref": "AWS::Partition"
-                                      },
-                                      ":iam::",
-                                      {
-                                        "Ref": "AWS::AccountId"
-                                      },
-                                      ":root"
-                                    ]
-                                  ]
-                                }
-                              }
-                            }
-                          ],
-                          "Version": "2012-10-17"
-                        }
-                      }
-                    },
-                    "constructInfo": {
-                      "fqn": "aws-cdk-lib.aws_iam.CfnRole",
-                      "version": "2.43.1"
-                    }
-                  },
-                  "DefaultPolicy": {
-                    "id": "DefaultPolicy",
-                    "path": "CoffeeListingAppStack/Pipeline/CodeBuildActionRole/DefaultPolicy",
-                    "children": {
-                      "Resource": {
-                        "id": "Resource",
-                        "path": "CoffeeListingAppStack/Pipeline/CodeBuildActionRole/DefaultPolicy/Resource",
-                        "attributes": {
-                          "aws:cdk:cloudformation:type": "AWS::IAM::Policy",
-                          "aws:cdk:cloudformation:props": {
-                            "policyDocument": {
-                              "Statement": [
-                                {
-                                  "Action": [
-                                    "codebuild:BatchGetBuilds",
-                                    "codebuild:StartBuild",
-                                    "codebuild:StopBuild"
-                                  ],
-                                  "Effect": "Allow",
-                                  "Resource": {
-                                    "Fn::GetAtt": [
-                                      "PipelineBuildSynthCdkBuildProject6BEFA8E6",
-                                      "Arn"
-                                    ]
-                                  }
-                                },
-                                {
-                                  "Action": [
-                                    "codebuild:BatchGetBuilds",
-                                    "codebuild:StartBuild",
-                                    "codebuild:StopBuild"
-                                  ],
-                                  "Effect": "Allow",
-                                  "Resource": {
-                                    "Fn::GetAtt": [
-                                      "PipelineAssetsFileAsset5D8C5DA6",
-                                      "Arn"
-                                    ]
-                                  }
-                                },
-                                {
-                                  "Action": [
-                                    "codebuild:BatchGetBuilds",
-                                    "codebuild:StartBuild",
-                                    "codebuild:StopBuild"
-                                  ],
-                                  "Effect": "Allow",
-                                  "Resource": {
-                                    "Fn::GetAtt": [
-                                      "PipelineAppStageDeployFrontEndC4DF9F5E",
-                                      "Arn"
-                                    ]
-                                  }
-                                }
-                              ],
-                              "Version": "2012-10-17"
-                            },
-                            "policyName": "PipelineCodeBuildActionRoleDefaultPolicy1D62A6FE",
-                            "roles": [
-                              {
-                                "Ref": "PipelineCodeBuildActionRole226DB0CB"
-                              }
-                            ]
-                          }
-                        },
-                        "constructInfo": {
-                          "fqn": "aws-cdk-lib.aws_iam.CfnPolicy",
-                          "version": "2.43.1"
-                        }
-                      }
-                    },
-                    "constructInfo": {
-                      "fqn": "aws-cdk-lib.aws_iam.Policy",
-                      "version": "2.43.1"
-                    }
-                  }
-                },
-                "constructInfo": {
-                  "fqn": "aws-cdk-lib.aws_iam.Role",
-                  "version": "2.43.1"
+                  "version": "2.20.0"
                 }
               },
               "Assets": {
@@ -3201,7 +3386,7 @@
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_iam.CfnRole",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       },
                       "DefaultPolicy": {
@@ -3286,9 +3471,11 @@
                                     {
                                       "Action": "sts:AssumeRole",
                                       "Effect": "Allow",
-                                      "Resource": {
-                                        "Fn::Sub": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
-                                      }
+                                      "Resource": [
+                                        {
+                                          "Fn::Sub": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+                                        }
+                                      ]
                                     },
                                     {
                                       "Action": "s3:*",
@@ -3343,19 +3530,19 @@
                             },
                             "constructInfo": {
                               "fqn": "aws-cdk-lib.aws_iam.CfnPolicy",
-                              "version": "2.43.1"
+                              "version": "2.20.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_iam.Policy",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_iam.Role",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   },
                   "FileAsset": {
@@ -3397,25 +3584,25 @@
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_codebuild.CfnProject",
-                          "version": "2.43.1"
+                          "version": "2.20.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_codebuild.PipelineProject",
-                      "version": "2.43.1"
+                      "version": "2.20.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "constructs.Construct",
-                  "version": "10.1.112"
+                  "version": "10.0.118"
                 }
               }
             },
             "constructInfo": {
               "fqn": "aws-cdk-lib.pipelines.CodePipeline",
-              "version": "2.43.1"
+              "version": "2.20.0"
             }
           },
           "RepositoryCloneUrlHttp": {
@@ -3423,7 +3610,7 @@
             "path": "CoffeeListingAppStack/RepositoryCloneUrlHttp",
             "constructInfo": {
               "fqn": "aws-cdk-lib.CfnOutput",
-              "version": "2.43.1"
+              "version": "2.20.0"
             }
           },
           "CDKMetadata": {
@@ -3435,7 +3622,7 @@
                 "path": "CoffeeListingAppStack/CDKMetadata/Default",
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.CfnResource",
-                  "version": "2.43.1"
+                  "version": "2.20.0"
                 }
               },
               "Condition": {
@@ -3443,25 +3630,25 @@
                 "path": "CoffeeListingAppStack/CDKMetadata/Condition",
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.CfnCondition",
-                  "version": "2.43.1"
+                  "version": "2.20.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "constructs.Construct",
-              "version": "10.1.112"
+              "version": "10.0.118"
             }
           }
         },
         "constructInfo": {
           "fqn": "aws-cdk-lib.Stack",
-          "version": "2.43.1"
+          "version": "2.20.0"
         }
       }
     },
     "constructInfo": {
       "fqn": "aws-cdk-lib.App",
-      "version": "2.43.1"
+      "version": "2.20.0"
     }
   }
 }

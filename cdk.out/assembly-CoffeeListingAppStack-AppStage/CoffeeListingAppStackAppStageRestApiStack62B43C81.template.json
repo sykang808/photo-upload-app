@@ -91,7 +91,7 @@
      "S3Bucket": {
       "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
      },
-     "S3Key": "0ae6e05fb4a63cbeb935e01bbfd6186de5f8d86aabddcdb8ab479710e9bb0f31.zip"
+     "S3Key": "07668d3124dcdb154060bb4f97659fd90873bfae34f1e743d5f6bfebb5774678.zip"
     },
     "Role": {
      "Fn::GetAtt": [
@@ -117,7 +117,7 @@
    ],
    "Metadata": {
     "aws:cdk:path": "CoffeeListingAppStack/AppStage/RestApiStack/ApiHandlerPublic/Resource",
-    "aws:asset:path": "../asset.0ae6e05fb4a63cbeb935e01bbfd6186de5f8d86aabddcdb8ab479710e9bb0f31",
+    "aws:asset:path": "../asset.07668d3124dcdb154060bb4f97659fd90873bfae34f1e743d5f6bfebb5774678",
     "aws:asset:is-bundled": true,
     "aws:asset:property": "Code"
    }
@@ -161,8 +161,6 @@
      }
     ]
    },
-   "UpdateReplacePolicy": "Retain",
-   "DeletionPolicy": "Retain",
    "Metadata": {
     "aws:cdk:path": "CoffeeListingAppStack/AppStage/RestApiStack/RestApi/CloudWatchRole/Resource"
    }
@@ -180,8 +178,6 @@
    "DependsOn": [
     "RestApi0C43BF4B"
    ],
-   "UpdateReplacePolicy": "Retain",
-   "DeletionPolicy": "Retain",
    "Metadata": {
     "aws:cdk:path": "CoffeeListingAppStack/AppStage/RestApiStack/RestApi/Account"
    }
@@ -539,7 +535,7 @@
   "CDKMetadata": {
    "Type": "AWS::CDK::Metadata",
    "Properties": {
-    "Analytics": "v2:deflate64:H4sIAAAAAAAA/1VQy1KEMBD8lr2HUVxLz+xannwVfgCVDSMOhIRiErcoin83D5+n7p6kOz25gus9lDt55kK1Q6HpBOurk2oQYdSsWo6nVjbGttgzPCW490Y5skaQHGGtrUZxfDMJX6wmtUSZ2SZ430hmdAxVhKDh4NWA7iAZRY6HNRh+UqMZ55GYg9qEnKiTDs9ygfUhXa+RXTVRevSXVkpZb5y4w0nbZcRAw/SPClt1qWkmwWr9rDD1+BZfmZk/onu3bRxltm0i7RD9ZLp48Ozd5N0/V+BHa1pyqX38OOj54qO8gfIWLnc9ExVzKEojQp3xE5cVFUyEAQAA"
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/1VQSW7DMAx8S+8ym6RAe3ZS9NQN7gMMRWYTepEMU2pgGP57KanraWYoDTnkDnYb2FzpCxem6YqejrC8eW06JaV66fVwbHRtXYMtw3OCh2CNJ2cV6QGWyvWoDu824avrycxRZrYqvqk1M3qGMoJo2AfTod9rRpXbwyKGn67RjNNAzKJWpUc6aY8XPcPymL5XyL4cKQ39paUxLliv7nHs3TygUKn+UbLVKSXNRKwuTAZTjm/x1TPzJ/Rn18RSZuuq0g7RT/YUH16CH4P/5xJ+cLYhn9LHw0HL1x/bW9jeyaFbJiomCUoDQpXxE20hAqOEAQAA"
    },
    "Metadata": {
     "aws:cdk:path": "CoffeeListingAppStack/AppStage/RestApiStack/CDKMetadata/Default"

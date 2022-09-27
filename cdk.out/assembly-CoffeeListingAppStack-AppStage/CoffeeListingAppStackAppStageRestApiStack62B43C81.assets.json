@@ -1,20 +1,20 @@
 {
-  "version": "21.0.0",
+  "version": "17.0.0",
   "files": {
-    "0ae6e05fb4a63cbeb935e01bbfd6186de5f8d86aabddcdb8ab479710e9bb0f31": {
+    "07668d3124dcdb154060bb4f97659fd90873bfae34f1e743d5f6bfebb5774678": {
       "source": {
-        "path": "../asset.0ae6e05fb4a63cbeb935e01bbfd6186de5f8d86aabddcdb8ab479710e9bb0f31",
+        "path": "../asset.07668d3124dcdb154060bb4f97659fd90873bfae34f1e743d5f6bfebb5774678",
         "packaging": "zip"
       },
       "destinations": {
         "current_account-current_region": {
           "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
-          "objectKey": "0ae6e05fb4a63cbeb935e01bbfd6186de5f8d86aabddcdb8ab479710e9bb0f31.zip",
+          "objectKey": "07668d3124dcdb154060bb4f97659fd90873bfae34f1e743d5f6bfebb5774678.zip",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
         }
       }
     },
-    "1afc31419b6d46a0c31a30f5fced555e00023c9ed52066f96180582c38e7891c": {
+    "48b91d77f166cdd370cd20ed1e87e422e9a630646e4b32fa04a2b94d9dbd5a08": {
       "source": {
         "path": "CoffeeListingAppStackAppStageRestApiStack62B43C81.template.json",
         "packaging": "file"
@@ -22,7 +22,7 @@
       "destinations": {
         "current_account-current_region": {
           "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
-          "objectKey": "1afc31419b6d46a0c31a30f5fced555e00023c9ed52066f96180582c38e7891c.json",
+          "objectKey": "48b91d77f166cdd370cd20ed1e87e422e9a630646e4b32fa04a2b94d9dbd5a08.json",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
         }
       }

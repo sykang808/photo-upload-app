@@ -1,5 +1,5 @@
 {
-  "version": "21.0.0",
+  "version": "17.0.0",
   "artifacts": {
     "assembly-CoffeeListingAppStack-AppStage": {
       "type": "cdk:cloud-assembly",
@@ -30,7 +30,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/5cd099ef164709f67e112b8e9aaca103f5221a9b2f38bd4dbcb309dc9503c038.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/cb7595c746c23311b04a51474c5f11fd770c4614df5a0a85a1722c62414dbab8.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -130,6 +130,30 @@
             "data": "PipelineBuildSynthCdkBuildProject6BEFA8E6"
           }
         ],
+        "/CoffeeListingAppStack/Pipeline/Pipeline/Build/Synth/CodePipelineActionRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineBuildSynthCodePipelineActionRole4E7A6C97"
+          }
+        ],
+        "/CoffeeListingAppStack/Pipeline/Pipeline/Build/Synth/CodePipelineActionRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineBuildSynthCodePipelineActionRoleDefaultPolicy92C90290"
+          }
+        ],
+        "/CoffeeListingAppStack/Pipeline/Pipeline/Assets/FileAsset/CodePipelineActionRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineAssetsFileAssetCodePipelineActionRoleFC225D71"
+          }
+        ],
+        "/CoffeeListingAppStack/Pipeline/Pipeline/Assets/FileAsset/CodePipelineActionRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PipelineAssetsFileAssetCodePipelineActionRoleDefaultPolicy431C74F6"
+          }
+        ],
         "/CoffeeListingAppStack/Pipeline/Pipeline/AppStage/DeployFrontEnd/DeployFrontEnd/Role/Resource": [
           {
             "type": "aws:cdk:logicalId",
@@ -148,16 +172,16 @@
             "data": "PipelineAppStageDeployFrontEndC4DF9F5E"
           }
         ],
-        "/CoffeeListingAppStack/Pipeline/CodeBuildActionRole/Resource": [
+        "/CoffeeListingAppStack/Pipeline/Pipeline/AppStage/DeployFrontEnd/CodePipelineActionRole/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "PipelineCodeBuildActionRole226DB0CB"
+            "data": "PipelineAppStageDeployFrontEndCodePipelineActionRole8AB902C8"
           }
         ],
-        "/CoffeeListingAppStack/Pipeline/CodeBuildActionRole/DefaultPolicy/Resource": [
+        "/CoffeeListingAppStack/Pipeline/Pipeline/AppStage/DeployFrontEnd/CodePipelineActionRole/DefaultPolicy/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "PipelineCodeBuildActionRoleDefaultPolicy1D62A6FE"
+            "data": "PipelineAppStageDeployFrontEndCodePipelineActionRoleDefaultPolicy510D2CDA"
           }
         ],
         "/CoffeeListingAppStack/Pipeline/Assets/FileRole/Resource": [

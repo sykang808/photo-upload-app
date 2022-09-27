@@ -285,7 +285,17 @@
        "Effect": "Allow",
        "Resource": {
         "Fn::GetAtt": [
-         "PipelineCodeBuildActionRole226DB0CB",
+         "PipelineBuildSynthCodePipelineActionRole4E7A6C97",
+         "Arn"
+        ]
+       }
+      },
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Resource": {
+        "Fn::GetAtt": [
+         "PipelineAssetsFileAssetCodePipelineActionRoleFC225D71",
          "Arn"
         ]
        }
@@ -314,6 +324,16 @@
            "Ref": "AWS::Region"
           }
          ]
+        ]
+       }
+      },
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Resource": {
+        "Fn::GetAtt": [
+         "PipelineAppStageDeployFrontEndCodePipelineActionRole8AB902C8",
+         "Arn"
         ]
        }
       }
@@ -409,7 +429,7 @@
         ],
         "RoleArn": {
          "Fn::GetAtt": [
-          "PipelineCodeBuildActionRole226DB0CB",
+          "PipelineBuildSynthCodePipelineActionRole4E7A6C97",
           "Arn"
          ]
         },
@@ -440,7 +460,7 @@
         "Name": "FileAsset",
         "RoleArn": {
          "Fn::GetAtt": [
-          "PipelineCodeBuildActionRole226DB0CB",
+          "PipelineAssetsFileAssetCodePipelineActionRoleFC225D71",
           "Arn"
          ]
         },
@@ -686,7 +706,7 @@
         "Name": "DeployFrontEnd",
         "RoleArn": {
          "Fn::GetAtt": [
-          "PipelineCodeBuildActionRole226DB0CB",
+          "PipelineAppStageDeployFrontEndCodePipelineActionRole8AB902C8",
           "Arn"
          ]
         },
@@ -1096,6 +1116,142 @@
     "aws:cdk:path": "CoffeeListingAppStack/Pipeline/Pipeline/Build/Synth/CdkBuildProject/Resource"
    }
   },
+  "PipelineBuildSynthCodePipelineActionRole4E7A6C97": {
+   "Type": "AWS::IAM::Role",
+   "Properties": {
+    "AssumeRolePolicyDocument": {
+     "Statement": [
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Principal": {
+        "AWS": {
+         "Fn::Join": [
+          "",
+          [
+           "arn:",
+           {
+            "Ref": "AWS::Partition"
+           },
+           ":iam::",
+           {
+            "Ref": "AWS::AccountId"
+           },
+           ":root"
+          ]
+         ]
+        }
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "CoffeeListingAppStack/Pipeline/Pipeline/Build/Synth/CodePipelineActionRole/Resource"
+   }
+  },
+  "PipelineBuildSynthCodePipelineActionRoleDefaultPolicy92C90290": {
+   "Type": "AWS::IAM::Policy",
+   "Properties": {
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": [
+        "codebuild:BatchGetBuilds",
+        "codebuild:StartBuild",
+        "codebuild:StopBuild"
+       ],
+       "Effect": "Allow",
+       "Resource": {
+        "Fn::GetAtt": [
+         "PipelineBuildSynthCdkBuildProject6BEFA8E6",
+         "Arn"
+        ]
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "PolicyName": "PipelineBuildSynthCodePipelineActionRoleDefaultPolicy92C90290",
+    "Roles": [
+     {
+      "Ref": "PipelineBuildSynthCodePipelineActionRole4E7A6C97"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "CoffeeListingAppStack/Pipeline/Pipeline/Build/Synth/CodePipelineActionRole/DefaultPolicy/Resource"
+   }
+  },
+  "PipelineAssetsFileAssetCodePipelineActionRoleFC225D71": {
+   "Type": "AWS::IAM::Role",
+   "Properties": {
+    "AssumeRolePolicyDocument": {
+     "Statement": [
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Principal": {
+        "AWS": {
+         "Fn::Join": [
+          "",
+          [
+           "arn:",
+           {
+            "Ref": "AWS::Partition"
+           },
+           ":iam::",
+           {
+            "Ref": "AWS::AccountId"
+           },
+           ":root"
+          ]
+         ]
+        }
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "CoffeeListingAppStack/Pipeline/Pipeline/Assets/FileAsset/CodePipelineActionRole/Resource"
+   }
+  },
+  "PipelineAssetsFileAssetCodePipelineActionRoleDefaultPolicy431C74F6": {
+   "Type": "AWS::IAM::Policy",
+   "Properties": {
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": [
+        "codebuild:BatchGetBuilds",
+        "codebuild:StartBuild",
+        "codebuild:StopBuild"
+       ],
+       "Effect": "Allow",
+       "Resource": {
+        "Fn::GetAtt": [
+         "PipelineAssetsFileAsset5D8C5DA6",
+         "Arn"
+        ]
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "PolicyName": "PipelineAssetsFileAssetCodePipelineActionRoleDefaultPolicy431C74F6",
+    "Roles": [
+     {
+      "Ref": "PipelineAssetsFileAssetCodePipelineActionRoleFC225D71"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "CoffeeListingAppStack/Pipeline/Pipeline/Assets/FileAsset/CodePipelineActionRole/DefaultPolicy/Resource"
+   }
+  },
   "PipelineAppStageDeployFrontEndRole87974F33": {
    "Type": "AWS::IAM::Role",
    "Properties": {
@@ -1299,18 +1455,13 @@
     "aws:cdk:path": "CoffeeListingAppStack/Pipeline/Pipeline/AppStage/DeployFrontEnd/DeployFrontEnd/Resource"
    }
   },
-  "PipelineCodeBuildActionRole226DB0CB": {
+  "PipelineAppStageDeployFrontEndCodePipelineActionRole8AB902C8": {
    "Type": "AWS::IAM::Role",
    "Properties": {
     "AssumeRolePolicyDocument": {
      "Statement": [
       {
        "Action": "sts:AssumeRole",
-       "Condition": {
-        "Bool": {
-         "aws:ViaAWSService": "codepipeline.amazonaws.com"
-        }
-       },
        "Effect": "Allow",
        "Principal": {
         "AWS": {
@@ -1336,42 +1487,14 @@
     }
    },
    "Metadata": {
-    "aws:cdk:path": "CoffeeListingAppStack/Pipeline/CodeBuildActionRole/Resource"
+    "aws:cdk:path": "CoffeeListingAppStack/Pipeline/Pipeline/AppStage/DeployFrontEnd/CodePipelineActionRole/Resource"
    }
   },
-  "PipelineCodeBuildActionRoleDefaultPolicy1D62A6FE": {
+  "PipelineAppStageDeployFrontEndCodePipelineActionRoleDefaultPolicy510D2CDA": {
    "Type": "AWS::IAM::Policy",
    "Properties": {
     "PolicyDocument": {
      "Statement": [
-      {
-       "Action": [
-        "codebuild:BatchGetBuilds",
-        "codebuild:StartBuild",
-        "codebuild:StopBuild"
-       ],
-       "Effect": "Allow",
-       "Resource": {
-        "Fn::GetAtt": [
-         "PipelineBuildSynthCdkBuildProject6BEFA8E6",
-         "Arn"
-        ]
-       }
-      },
-      {
-       "Action": [
-        "codebuild:BatchGetBuilds",
-        "codebuild:StartBuild",
-        "codebuild:StopBuild"
-       ],
-       "Effect": "Allow",
-       "Resource": {
-        "Fn::GetAtt": [
-         "PipelineAssetsFileAsset5D8C5DA6",
-         "Arn"
-        ]
-       }
-      },
       {
        "Action": [
         "codebuild:BatchGetBuilds",
@@ -1389,15 +1512,15 @@
      ],
      "Version": "2012-10-17"
     },
-    "PolicyName": "PipelineCodeBuildActionRoleDefaultPolicy1D62A6FE",
+    "PolicyName": "PipelineAppStageDeployFrontEndCodePipelineActionRoleDefaultPolicy510D2CDA",
     "Roles": [
      {
-      "Ref": "PipelineCodeBuildActionRole226DB0CB"
+      "Ref": "PipelineAppStageDeployFrontEndCodePipelineActionRole8AB902C8"
      }
     ]
    },
    "Metadata": {
-    "aws:cdk:path": "CoffeeListingAppStack/Pipeline/CodeBuildActionRole/DefaultPolicy/Resource"
+    "aws:cdk:path": "CoffeeListingAppStack/Pipeline/Pipeline/AppStage/DeployFrontEnd/CodePipelineActionRole/DefaultPolicy/Resource"
    }
   },
   "PipelineAssetsFileRole59943A77": {
@@ -1517,9 +1640,11 @@
       {
        "Action": "sts:AssumeRole",
        "Effect": "Allow",
-       "Resource": {
-        "Fn::Sub": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
-       }
+       "Resource": [
+        {
+         "Fn::Sub": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+       ]
       },
       {
        "Action": "s3:*",
@@ -1611,7 +1736,7 @@
   "CDKMetadata": {
    "Type": "AWS::CDK::Metadata",
    "Properties": {
-    "Analytics": "v2:deflate64:H4sIAAAAAAAA/0VPW07EMAw8y/6nhrII/ukBqMoBUDc1kts0rhpn0SrK3Un6IF8zHs9o7Bd4vUJ96X9dpYepMnSD8CW9nlSSvoPmATXPMwmEDhd2JLw+VPNjyxQV3tGKSw5vcNsljCpnF1rQkEUI7cHy/uRRuSuED68nlKwfbIeWDelHkfc5Kurn1MRHU8biPD25+ubJDKW3XXlEvdUcNEZ1nuegSYn/Ezt07Fe9NXx6WbzsHxe1YTuQENuobErC6J7u9RvU7/B8GR1RtXorNCN0O/4BusJHOWcBAAA="
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/0VQW27EIAw8S/+Juw+p/W8O0Ch7gCpLXMkJwVEwW60Qd1/Io3zNeDyjMVzgcoLTW/fnKt2PlaE7hJt0elRJ+gmae9Q8TSQQWpzZkfDyVPWvLVNU+EArLjm8wXWXMKqcnWlGQxYhNDvL+4NH5a4QvrweUbK+sw0aNqSfRd7mqKibUhPvTRmL8/Dk6rsn05feZuEB9Vqz0xjVcZ6DOiX+T2zRsV/02vDtZfayvbioNduehNhGZVMSBvf+OH/A+TP95eCIqsVboQmh3fAFnReLIWcBAAA="
    },
    "Metadata": {
     "aws:cdk:path": "CoffeeListingAppStack/CDKMetadata/Default"

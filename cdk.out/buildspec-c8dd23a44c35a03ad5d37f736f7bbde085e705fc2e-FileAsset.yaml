@@ -8,8 +8,8 @@
     },
     "build": {
       "commands": [
-        "cdk-assets --path \"assembly-CoffeeListingAppStack-AppStage/CoffeeListingAppStackAppStageWebsiteHostingStackC4458844.assets.json\" --verbose publish \"e57c1acaa363d7d2b81736776007a7091bc73dff4aeb8135627c4511a51e7dca:current_account-current_region\"",
-        "cdk-assets --path \"assembly-CoffeeListingAppStack-AppStage/CoffeeListingAppStackAppStageRestApiStack62B43C81.assets.json\" --verbose publish \"0ae6e05fb4a63cbeb935e01bbfd6186de5f8d86aabddcdb8ab479710e9bb0f31:current_account-current_region\""
+        "cdk-assets --path \"assembly-CoffeeListingAppStack-AppStage/CoffeeListingAppStackAppStageWebsiteHostingStackC4458844.assets.json\" --verbose publish \"483ae06ed27ef8ca76e011264d772420593a6cfe8544759c306ef3b98c9e25be:current_account-current_region\"",
+        "cdk-assets --path \"assembly-CoffeeListingAppStack-AppStage/CoffeeListingAppStackAppStageRestApiStack62B43C81.assets.json\" --verbose publish \"07668d3124dcdb154060bb4f97659fd90873bfae34f1e743d5f6bfebb5774678:current_account-current_region\""
       ]
     }
   }
